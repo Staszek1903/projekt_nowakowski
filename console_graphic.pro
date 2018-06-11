@@ -4,4 +4,14 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+    display.cpp \
+    vector2f.cpp \
+    textdisplay.cpp \
+    graphicaldisplay.cpp
+
+HEADERS += \
+    display.h \
+    vector2f.h \
+    textdisplay.h \
+    graphicaldisplay.h
