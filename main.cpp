@@ -4,20 +4,23 @@
 #include "textdisplay.h"
 #include "graphicaldisplay.h"
 #include "Circle.h"
+#include "triangle.h"
+#include "vector2f.h"
 
 using namespace std;
 
 int main()
 {
     //Shape *o = new Circle;
-    Display * p1 = new TextDisplay;
-    Display * p2 = new GraphicalDisplay;
+    Display * text_disp = new TextDisplay;
+    Display * graph_disp = new GraphicalDisplay;
 
-    p1->drawCircle(0);
-    p2->drawCircle(0);
+    Shape * o = new Triangle(graph_disp, pat::Vector2f(3,2), pat::Vector2f(2,-2));
 
-    delete p1;
-    delete p2;
+    o->draw();
+
+    delete graph_disp;
+    delete text_disp;
     cout << "Hello World!" << endl;
     return 0;
 }

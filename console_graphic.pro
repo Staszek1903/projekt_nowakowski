@@ -10,7 +10,8 @@ SOURCES += \
     textdisplay.cpp \
     graphicaldisplay.cpp \
     Circle.cpp \
-    Shape.cpp
+    Shape.cpp \
+    triangle.cpp
 
 HEADERS += \
     display.h \
@@ -18,4 +19,5 @@ HEADERS += \
     textdisplay.h \
     graphicaldisplay.h \
     Circle.h \
-    Shape.h
+    Shape.h \
+    triangle.h

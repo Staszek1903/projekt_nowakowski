@@ -11,6 +11,8 @@ public:
     void drawCircle(int r) override;
     void drawTriangle(pat::Vector2f a, pat::Vector2f b) override;
     void drawParralellogram(pat::Vector2f a, pat::Vector2f b) override;
+protected:
+    void drawLine(int begin, int end, char brush);
 };
 
 #endif // GRAPHICALDISPLAY_H

@@ -1,11 +1,11 @@
 #include "Circle.h"
 
 Circle::Circle(Display *w, int r)
-:r(r), Shape(w)
+    :Shape::Shape(w), r(r)
 {
 
 }
-void draw()
+void Circle::draw()
 {
     displayPointer->drawCircle(r);
 }

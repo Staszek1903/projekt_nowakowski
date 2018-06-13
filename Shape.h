@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+#include "display.h"
+
 class Shape
 {
 public:
@@ -10,7 +12,7 @@ public:
     virtual void draw()=0;
     virtual void changeDisplay(Display*newDisplay);
     virtual ~Shape();
-private:
+protected:
     Display* displayPointer;
 };
 

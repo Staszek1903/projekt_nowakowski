@@ -12,8 +12,6 @@ void GraphicalDisplay::drawCircle(int r)
 
 void GraphicalDisplay::drawTriangle(pat::Vector2f a, pat::Vector2f b)
 {
-    std::cout<<"Graphical Triangle: "<<a.x<<" "<<a.y<<" "<<b.x<<" "<<b.y<<std::endl;
-
     float leftTan = -a.x / a.y;
     float rightTan = (b.x - a.x) / (b.y - a.y);
 

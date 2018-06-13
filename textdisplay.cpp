@@ -12,10 +12,10 @@ void TextDisplay::drawCircle(int r)
 
 void TextDisplay::drawTriangle(pat::Vector2f a, pat::Vector2f b)
 {
-
+    std::cout<<"text"<<std::endl;
 }
 
 void TextDisplay::drawParralellogram(pat::Vector2f a, pat::Vector2f b)
 {
-
+    std::cout<<"text"<<std::endl;
 }
