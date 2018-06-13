@@ -12,10 +12,10 @@ void TextDisplay::drawCircle(int r)
 
 void TextDisplay::drawTriangle(pat::Vector2f a, pat::Vector2f b)
 {
-    std::cout<<"Drawing a triangle from vectors "<<Vector2f a<<Vector2f b<<"."<<std::endl;
+    std::cout<<"Drawing a triangle from vectors ("<<a.x<<", "<<a.y<<"), ("<<b.x<<", "<<b.y<<")."<<std::endl;
 }
 
 void TextDisplay::drawParralellogram(pat::Vector2f a, pat::Vector2f b)
 {
-    std::cout<<"Drawing a paralellogram from vectors "<<Vector2f a<<Vector2f b<<"."<<std::endl;
+    std::cout<<"Drawing a paralellogram from vectors ("<<a.x<<", "<<a.y<<"), ("<<b.x<<", "<<b.y<<")."<<std::endl;
 }

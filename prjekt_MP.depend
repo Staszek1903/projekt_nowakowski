@@ -1,15 +1,16 @@
 # depslib dependency file v1.0
-1528918031 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\main.cpp
+1528919361 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\main.cpp
 	<iostream>
 	"display.h"
 	"textdisplay.h"
 	"graphicaldisplay.h"
 	"Circle.h"
 	"triangle.h"
+	"parallelogram.h"
 	"vector2f.h"
 	"ComplexShape.h"
 
-1528914797 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\graphicaldisplay.cpp
+1528919361 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\graphicaldisplay.cpp
 	"graphicaldisplay.h"
 	<math.h>
 
@@ -33,7 +34,7 @@
 1528915390 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\shape.h
 	"display.h"
 
-1528914797 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\textdisplay.cpp
+1528919520 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\textdisplay.cpp
 	"textdisplay.h"
 
 1528907138 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\vector2f.cpp
@@ -63,4 +64,11 @@
 
 1528914797 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\shape.cpp
 	"Shape.h"
+
+1528919361 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\parallelogram.h
+	"Shape.h"
+	"vector2f.h"
+
+1528919361 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\parallelogram.cpp
+	"parallelogram.h"
 
