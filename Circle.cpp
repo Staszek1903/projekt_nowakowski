@@ -1,10 +1,6 @@
 #include "Circle.h"
 
-class Circle
+Circle::Circle(Display *w, int r)
 {
-public:
-    Circle::Circle(Display*w, int r);
-    void draw();
-private:
-    int r;
-};
+
+}

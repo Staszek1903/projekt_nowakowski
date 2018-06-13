@@ -8,10 +8,14 @@ SOURCES += \
     display.cpp \
     vector2f.cpp \
     textdisplay.cpp \
-    graphicaldisplay.cpp
+    graphicaldisplay.cpp \
+    Circle.cpp \
+    Shape.cpp
 
 HEADERS += \
     display.h \
     vector2f.h \
     textdisplay.h \
-    graphicaldisplay.h
+    graphicaldisplay.h \
+    Circle.h \
+    Shape.h
