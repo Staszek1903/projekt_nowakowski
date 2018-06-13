@@ -12,7 +12,8 @@ SOURCES += \
     Circle.cpp \
     Shape.cpp \
     triangle.cpp \
-    parallelogram.cpp
+    parallelogram.cpp \
+    ComplexShape.cpp
 
 HEADERS += \
     display.h \
@@ -22,4 +23,5 @@ HEADERS += \
     Circle.h \
     Shape.h \
     triangle.h \
-    parallelogram.h
+    parallelogram.h \
+    ComplexShape.h

@@ -1,20 +1,23 @@
 # depslib dependency file v1.0
-1528911606 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\main.cpp
+1528918031 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\main.cpp
 	<iostream>
 	"display.h"
 	"textdisplay.h"
 	"graphicaldisplay.h"
 	"Circle.h"
+	"triangle.h"
+	"vector2f.h"
+	"ComplexShape.h"
 
-1528911968 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\graphicaldisplay.cpp
+1528914797 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\graphicaldisplay.cpp
 	"graphicaldisplay.h"
 	<math.h>
 
-1528907138 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\graphicaldisplay.h
+1528914797 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\graphicaldisplay.h
 	"display.h"
 	<iostream>
 
-1528907138 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\display.h
+1528914797 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\display.h
 	"vector2f.h"
 
 1528907138 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\vector2f.h
@@ -23,14 +26,14 @@
 	"display.h"
 	<iostream>
 
-1528910230 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\circle.h
-	"display.h"
+1528914797 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\circle.h
 	"Shape.h"
-
-1528912857 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\shape.h
 	"display.h"
 
-1528907138 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\textdisplay.cpp
+1528915390 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\shape.h
+	"display.h"
+
+1528914797 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\textdisplay.cpp
 	"textdisplay.h"
 
 1528907138 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\vector2f.cpp
@@ -39,11 +42,25 @@
 1528907700 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\display.cpp
 	"display.h"
 
-1528913936 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\complexshape.cpp
+1528918319 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\complexshape.cpp
 	"ComplexShape.h"
 
-1528914089 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\complexshape.h
+1528917219 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\complexshape.h
 	"display.h"
 	"Shape.h"
 	<vector>
+
+1528915197 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\triangle.h
+	"Shape.h"
+	"display.h"
+	"vector2f.h"
+
+1528914797 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\triangle.cpp
+	"triangle.h"
+
+1528914797 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\circle.cpp
+	"Circle.h"
+
+1528914797 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\shape.cpp
+	"Shape.h"
 

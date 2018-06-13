@@ -5,13 +5,14 @@
 #include "Shape.h"
 #include <vector>
 
-class ComplexShape
+class ComplexShape: public Shape
 {
 public:
     ComplexShape(Display*w);
     bool add(Shape*o);
+    void draw() override;
 protected:
-        std::vector<int> tab;
+        std::vector<Shape*> tab;
 
 };
 
