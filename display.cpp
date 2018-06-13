@@ -4,3 +4,8 @@ Display::Display()
 {
 
 }
+
+Display::~Display()
+{
+
+}

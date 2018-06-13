@@ -1,13 +1,11 @@
 #ifndef CIRCLE_H_INCLUDED
 #define CIRCLE_H_INCLUDED
 
-#include "Shape.h"
-
 class Circle : public Shape
 {
 public:
     Circle(Display*w, int r);
-    void draw();
+    void draw() override;
 private:
     int r;
 };

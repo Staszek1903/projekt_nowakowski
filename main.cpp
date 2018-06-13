@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    Shape *o = new Circle;
+    //Shape *o = new Circle;
     Display * p1 = new TextDisplay;
     Display * p2 = new GraphicalDisplay;
 

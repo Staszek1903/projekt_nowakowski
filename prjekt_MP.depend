@@ -1,4 +1,38 @@
 # depslib dependency file v1.0
-1528748755 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\main.cpp
+1528907593 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\main.cpp
 	<iostream>
+	"display.h"
+	"textdisplay.h"
+	"graphicaldisplay.h"
+	"Circle.h"
+
+1528907138 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\graphicaldisplay.cpp
+	"graphicaldisplay.h"
+
+1528907138 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\graphicaldisplay.h
+	"display.h"
+	<iostream>
+
+1528907138 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\display.h
+	"vector2f.h"
+
+1528907138 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\vector2f.h
+
+1528907138 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\textdisplay.h
+	"display.h"
+	<iostream>
+
+1528910067 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\circle.h
+
+1528907138 c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\shape.h
+	<iostream>
+
+1528907138 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\textdisplay.cpp
+	"textdisplay.h"
+
+1528907138 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\vector2f.cpp
+	"vector2f.h"
+
+1528907700 source:c:\users\pawel\desktop\projekt_mp\projekt\projekt_nowakowski\display.cpp
+	"display.h"
 
