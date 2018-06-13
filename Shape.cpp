@@ -6,7 +6,7 @@ Shape::Shape(Display *w)
 {
 
 }
-virtual void changeDisplay(Display*newDisplay);
+void changeDisplay(Display*newDisplay);
 {
    displayPointer=newDisplay;
 }

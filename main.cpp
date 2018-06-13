@@ -18,6 +18,6 @@ int main()
 
     delete p1;
     delete p2;
-    cout << "Hello World!" << endl;
+
     return 0;
 }
