@@ -7,7 +7,7 @@ Shape::Shape(Display *w)
 
 }
 
-void Shape::changeDisplay(Display *newDisplay)
+void Shape::changeDisplay(Display*newDisplay)
 {
     displayPointer= newDisplay;
 }

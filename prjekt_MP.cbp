@@ -38,13 +38,27 @@
 		<Unit filename="Circle.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="ComplexShape.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ComplexShape.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="Shape.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="Shape.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="display.cpp" />
+		<Unit filename="display.h" />
+		<Unit filename="graphicaldisplay.cpp" />
+		<Unit filename="graphicaldisplay.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="textdisplay.cpp" />
+		<Unit filename="textdisplay.h" />
+		<Unit filename="vector2f.cpp" />
+		<Unit filename="vector2f.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

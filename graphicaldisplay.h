@@ -13,6 +13,7 @@ public:
     void drawParralellogram(pat::Vector2f a, pat::Vector2f b) override;
 protected:
     void drawLine(int begin, int end, char brush);
+    float distance (float x,float y);
 };
 
 #endif // GRAPHICALDISPLAY_H

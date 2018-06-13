@@ -16,11 +16,14 @@ int main()
     Display * graph_disp = new GraphicalDisplay;
 
     Shape * o = new Triangle(graph_disp, pat::Vector2f(3,2), pat::Vector2f(2,-2));
+    Shape * o2 = new Circle(graph_disp, 5);
 
     o->draw();
+    o2->draw();
 
     delete graph_disp;
     delete text_disp;
     cout << "Hello World!" << endl;
+
     return 0;
 }
