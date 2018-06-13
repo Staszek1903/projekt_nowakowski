@@ -11,7 +11,8 @@ SOURCES += \
     graphicaldisplay.cpp \
     Circle.cpp \
     Shape.cpp \
-    triangle.cpp
+    triangle.cpp \
+    parallelogram.cpp
 
 HEADERS += \
     display.h \
@@ -20,4 +21,5 @@ HEADERS += \
     graphicaldisplay.h \
     Circle.h \
     Shape.h \
-    triangle.h
+    triangle.h \
+    parallelogram.h
