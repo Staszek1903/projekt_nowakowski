@@ -31,6 +31,13 @@ public:
     **/
     void drawParralellogram(pat::Vector2f a, pat::Vector2f b) override;
 protected:
+
+    /**
+     * @brief drawLine drukuje pozioma linie na standartowym wyjsciu
+     * @param begin miejsce w ktorym zaczynamy wypisuwac znaki
+     * @param end  miejsce konca linii
+     * @param brush znak z którego sklada sie linia
+     */
     void drawLine(int begin, int end, char brush);
     /**
     * @brief distance oblicza odleglosc miedzy punktem o wspolrzednych (x,y) a srodkiem okregu
