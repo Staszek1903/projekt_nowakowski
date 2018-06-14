@@ -5,9 +5,10 @@ ComplexShape::ComplexShape(Display*w)
 {
 
 }
-bool ComplexShape::add(Shape*o)
+void ComplexShape::add(Shape*o)
 {
     tab.push_back(o);
+
 }
 void ComplexShape::draw()
 {

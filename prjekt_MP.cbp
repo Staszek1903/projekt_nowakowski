@@ -32,31 +32,23 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Circle.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="Circle.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="ComplexShape.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="ComplexShape.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="Shape.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="Shape.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="Circle.cpp" />
+		<Unit filename="Circle.h" />
+		<Unit filename="ComplexShape.cpp" />
+		<Unit filename="ComplexShape.h" />
+		<Unit filename="Shape.cpp" />
+		<Unit filename="Shape.h" />
 		<Unit filename="display.cpp" />
 		<Unit filename="display.h" />
 		<Unit filename="graphicaldisplay.cpp" />
 		<Unit filename="graphicaldisplay.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="parallelogram.cpp" />
+		<Unit filename="parallelogram.h" />
 		<Unit filename="textdisplay.cpp" />
 		<Unit filename="textdisplay.h" />
+		<Unit filename="triangle.cpp" />
+		<Unit filename="triangle.h" />
 		<Unit filename="vector2f.cpp" />
 		<Unit filename="vector2f.h" />
 		<Extensions>

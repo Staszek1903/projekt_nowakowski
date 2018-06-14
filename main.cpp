@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include "display.h"
 
 #include "textdisplay.h"
@@ -51,7 +52,7 @@ int main()
         clock_t time = clock();
         while (clock() - time < CLOCKS_PER_SEC/8) {}
 
-        //system("clear");
+       system("cls");
         pat::Vector2f a(std::cos(ang1) * 20.0f, std::sin(ang1) * 20.0f);
         pat::Vector2f b(std::cos(ang2) * 20.0f, std::sin(ang2) * 20.0f);
         Triangle frame(graph_disp, a, b);
